@@ -1,6 +1,5 @@
 package com.example.palpointerapp;
-//Gabriels Branch
-//Test av branch - Ludvig
+//Master branch
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
