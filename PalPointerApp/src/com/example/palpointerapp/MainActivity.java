@@ -1,7 +1,11 @@
 package com.example.palpointerapp;
+<<<<<<< HEAD
 
 //Master branch
 
+=======
+//Master branch
+>>>>>>> FETCH_HEAD
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
