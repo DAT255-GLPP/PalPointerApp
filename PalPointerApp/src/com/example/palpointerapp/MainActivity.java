@@ -1,5 +1,10 @@
 package com.example.palpointerapp;
+<<<<<<< HEAD
 //Gabriels Branch
+=======
+//Test av branch - Ludvig
+
+>>>>>>> FETCH_HEAD
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
