@@ -1,5 +1,4 @@
 package com.example.palpointerapp;
-//HEj Gabriel
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
