@@ -9,8 +9,8 @@
 *.class
 
 # generated files
-Pal/bin/
-Pal/gen/
+PalPointerApp/bin/
+PalPointerApp/gen/
 
 # .DS_Store files
 .DS_Store
@@ -19,28 +19,28 @@ Pal/gen/
 local.properties
 
 *.pydevproject
-Pal/.project
+PalPointerApp/.project
 .metadata
-Pal/bin/**
-Pal/tmp/**
-Pal/tmp/**/*
+PalPointerApp/bin/**
+PalPointerApp/tmp/**
+PalPointerApp/tmp/**/*
 *.tmp
 *.bak
 *.swp
 *~.nib
-Pal/local.properties
-Pal/.classpath
-Pal/.settings/
-Pal/.loadpath
+PalPointerApp/local.properties
+PalPointerApp/.classpath
+PalPointerApp/.settings/
+PalPointerApp/.loadpath
 
 # External tool builders
-Pal/.externalToolBuilders/
+PalPointerApp/.externalToolBuilders/
 
 # Locally stored "Eclipse launch configurations"
-Pal/*.launch
+PalPointerApp/*.launch
 
 # CDT-specific
-Pal/.cproject
+PalPointerApp/.cproject
 
 # PDT-specific
-Pal/.buildpath
+PalPointerApp/.buildpath
