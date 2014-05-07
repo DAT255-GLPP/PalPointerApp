@@ -1,11 +1,6 @@
 package com.example.palpointerapp;
-<<<<<<< HEAD
 
-//Master branch
-
-=======
-//Master branch
->>>>>>> FETCH_HEAD
+import com.microsoft.windowsazure.mobileservices.*;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -20,8 +15,25 @@ import android.os.Build;
 
 public class MainActivity extends ActionBarActivity {
 
+	private MobileServiceClient mClient;
+	Item item = new Item();
+
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+    	try {
+    	mClient = new MobileServiceClient(
+    		      "https://palpointer.azure-mobile.net/",
+    		      "fFsYNDwyydTpUlQsPrqfQKezqvXonv99",
+    		      this
+    		);
+    	
+    	}
+    	catch (Exception e){}
+    	
+    	
+    	
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -32,8 +44,9 @@ public class MainActivity extends ActionBarActivity {
         }
     }
     
-    public int metod1(){
-    	return 1;
+    
+    public String metod1(View view){
+    	return "1";
     }
 
 
